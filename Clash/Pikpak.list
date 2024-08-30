@@ -11,8 +11,10 @@ DOMAIN,access.pikpak.me
 DOMAIN,static.mypikpak.com
 DOMAIN,config.mypikpak.com
 DOMAIN,rcv5-sp.mypikpak.com
+DOMAIN-SUFFIX,v6.mypikpak.com
 DOMAIN,hub5pr.mypikpak.com
 DOMAIN,hub5pn.mypikpak.com
+DOMAIN,hub5pnc.mypikpak.com
 DOMAIN,sg-thumbnail-drive.mypikpak.com
 # DOMAIN-SUFFIX,mypikpak.com
 DOMAIN,app.adjust.com
