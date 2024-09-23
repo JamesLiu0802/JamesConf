@@ -70,16 +70,16 @@ dns:
   
   use-hosts: true
   nameserver:
-    - https://doh.apad.pro/dns-query
-#    - https://dns.alidns.com/dns-query
-#    - https://doh.pub/dns-query
-#  fallback:
-#    - tls://1.1.1.1
-#    - tls://8.8.8.8
-#    - https://101.101.101.101/dns-query
-#  fallback-filter:
-#    geoip: true
-#    geoip-code: CN
+#    - https://doh.apad.pro/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - tls://1.1.1.1
+    - tls://8.8.8.8
+    - https://101.101.101.101/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
 
 cfw-latency-timeout: 3000
 cfw-latency-url: http://cp.cloudflare.com/generate_204
