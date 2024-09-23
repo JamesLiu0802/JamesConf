@@ -67,6 +67,10 @@ dns:
 #    "geosite:category-ads-all": rcode://success
     "+.tag-global-ddns.top":
       - tls://1.1.1.1
+    "*.911-gt3-rs.com": 
+      - https://dns.alidns.com/dns-query
+    "*.911gt2r.com": 
+      - https://dns.alidns.com/dns-query
   
   use-hosts: true
   nameserver:
