@@ -58,8 +58,8 @@ dns:
   ipv6: false
   # fake-ip-range: 198.18.0.1/16
   nameserver-policy:
-    "geosite:cn,private,apple,bilibili":
-      - https://dns.alidns.com/dns-query#h3=true
+    "geosite:cn,private,apple":
+      - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
     "geosite:gfw":
       - tls://1.1.1.1
@@ -74,9 +74,9 @@ dns:
   
   use-hosts: true
   nameserver:
-#    - https://doh.apad.pro/dns-query
-    - https://dns.alidns.com/dns-query
+    - https://doh.apad.pro/dns-query
     - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
   fallback:
     - tls://1.1.1.1
     - tls://8.8.8.8
