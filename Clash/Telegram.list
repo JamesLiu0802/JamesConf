@@ -1,6 +1,4 @@
-PROCESS-NAME,Telegram.exe
-PROCESS-NAME,org.telegram.messenger
-PROCESS-NAME,tw.nekomimi.nekogram
+PROCESS-NAME,app.nicegram
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
 DOMAIN-SUFFIX,cdn-telegram.org
