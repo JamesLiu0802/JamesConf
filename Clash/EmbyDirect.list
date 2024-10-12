@@ -6,28 +6,15 @@ DOMAIN-SUFFIX,cloudflarestorage.com
 
 DOMAIN-SUFFIX,ttvnw.net
 
-DOMAIN-SUFFIX,term.wtf
-
-IP-CIDR,1.1.1.1/32,no-resolve
-IP-CIDR,1.0.0.1/32,no-resolve
-IP-CIDR,101.101.101.101/32,no-resolve
-IP-CIDR,149.112.112.11/32,no-resolve
-IP-CIDR,208.67.222.222/32,no-resolve
-IP-CIDR,168.95.192.1/32,no-resolve
-IP-CIDR,8.8.8.8/32,no-resolve
-IP-CIDR,8.8.4.4/32,no-resolve
-IP-CIDR,9.9.9.9/32,no-resolve
 
 
-# DOMAIN,cf2.misakaf.org
-# DOMAIN-SUFFIX,mypikpak.com
-# DOMAIN-SUFFIX,mypikpak.net
 IP-CIDR,162.219.87.156/32,no-resolve
 DOMAIN,www.jrskan.com
 DOMAIN-SUFFIX,mm2022.top
 DOMAIN-SUFFIX,meimeiyun.top
 DOMAIN-SUFFIX,blinblin-taytay.top
 DOMAIN-SUFFIX,tkvtkvktvktv.net
+DOMAIN-SUFFIX,911-gt3-rs.com
 DOMAIN-SUFFIX,cfprefer1.xyz
 DOMAIN-SUFFIX,tag-global-ddns.top
 IP-CIDR,136.22.0.0/16,no-resolve
