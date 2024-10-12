@@ -59,14 +59,15 @@ dns:
   # fake-ip-range: 198.18.0.1/16
   nameserver-policy:
     "geosite:cn,private,apple":
-      - https://dns.alidns.com/dns-query
       - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "geosite:category-ads-all": rcode://success
     "geosite:gfw":
       - tls://1.1.1.1
       - https://101.101.101.101/dns-query
-#    "geosite:category-ads-all": rcode://success
-    "+.tag-global-ddns.top":
+    "*.tag-global-ddns.top":
       - tls://1.1.1.1
+      - tls://8.8.4.4
     "*.911-gt3-rs.com": 
       - https://dns.alidns.com/dns-query
     "*.911gt2r.com": 
