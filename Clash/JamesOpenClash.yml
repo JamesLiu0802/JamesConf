@@ -52,8 +52,8 @@ dns:
     - https://doh.apad.pro/dns-query
     - https://dns.alidns.com/dns-query
   fallback:
-    - tls://8.8.8.8
-    - 4.2.2.1
+    - udp://8.8.8.8
+    - udp://4.2.2.1
     - https://101.101.101.101/dns-query
   fallback-filter:
     geoip: true
