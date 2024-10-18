@@ -47,19 +47,22 @@ hosts:
   mtalk.google.com: 108.177.125.188
   dl.google.com: 180.163.151.161
   dl.l.google.com: 180.163.151.161
+  doh.apad.pro: 220.185.184.17
 
 dns:
   enable: true
   enhanced-mode: redir-host
-  prefer-h3: true # 开启 DoH 支持 HTTP/3，将并发尝试
+  prefer-h3: false # 开启 DoH 支持 HTTP/3，将并发尝试
   listen: 0.0.0.0:7874
   default-nameserver:
     - 223.5.5.5
   ipv6: false
   # fake-ip-range: 198.18.0.1/16
   nameserver-policy:
+    "doh.apad.pro":
+      - udp://8.8.8.8
     "geosite:cn,private,apple":
-      - https://doh.pub/dns-query
+      - https://doh.apad.pro/dns-query
       - https://dns.alidns.com/dns-query
     "geosite:category-ads-all": rcode://success
     "geosite:gfw":
@@ -75,16 +78,15 @@ dns:
       - https://dns.alidns.com/dns-query
     "*.911gt2r.com": 
       - https://dns.alidns.com/dns-query
+    
   
   use-hosts: true
   nameserver:
     - https://doh.apad.pro/dns-query
-    - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   fallback:
     - udp://8.8.8.8
     - udp://4.2.2.1
-    - https://101.101.101.101/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
