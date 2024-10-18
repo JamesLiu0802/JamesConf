@@ -1,7 +1,7 @@
 DOMAIN-SUFFIX,*.tw
 
-DOMAIN,dns.twnic.tw
-IP-CIDR,101.101.101.101/32,no-resolve
+#DOMAIN,dns.twnic.tw
+#IP-CIDR,101.101.101.101/32,no-resolve
 
 # NAME: Line
 # AUTHOR: blackmatrix7
