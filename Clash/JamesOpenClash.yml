@@ -52,8 +52,9 @@ dns:
     - https://doh.apad.pro/dns-query
     - https://dns.alidns.com/dns-query
   fallback:
-    - tls://1.1.1.1
     - tls://8.8.8.8
+    - tls://4.2.2.1
+    - https://101.101.101.101/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
@@ -62,7 +63,7 @@ dns:
     "*.tag-global-ddns.top": 1.1.1.1
     "*.911-gt3-rs.com": 223.5.5.5
     "*.911gt2r.com": 223.5.5.5
-    "community.oneplus.com,new.c.mi.com": 1.1.1.1
+    "community.oneplus.com,new.c.mi.com": 8.8.8.8
   
 
 # 1. clash DNS 请求逻辑：
