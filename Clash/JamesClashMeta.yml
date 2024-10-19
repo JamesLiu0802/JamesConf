@@ -61,23 +61,23 @@ dns:
   nameserver-policy:
     "doh.apad.pro":
       - udp://8.8.8.8
-    "geosite:cn,private,apple":
-      - https://doh.apad.pro/dns-query
-      - https://dns.alidns.com/dns-query
-    "geosite:category-ads-all": rcode://success
+    "community.oneplus.com, new.c.mi.com":
+      - udp://8.8.8.8
+      - udp://4.2.2.1
+    geosite:cn,private,apple:
+    - https://doh.apad.pro/dns-query#h3
+    - udp://223.5.5.5
+    geosite:category-ads-all: rcode://success
     "geosite:gfw":
-      - udp://8.8.8.8
-      - udp://4.2.2.1
+    - tls://101.101.101.101:853
+    - udp://8.8.8.8      
     "*.tag-global-ddns.top":
-      - udp://8.8.8.8
-      - udp://4.2.2.1
-    "community.oneplus.com,new.c.mi.com"
-      - udp://8.8.8.8
-      - udp://4.2.2.1
-    "*.911-gt3-rs.com": 
-      - https://dns.alidns.com/dns-query
-    "*.911gt2r.com": 
-      - https://dns.alidns.com/dns-query
+    - udp://8.8.8.8
+    - udp://4.2.2.1
+    "*.911-gt3-rs.com":
+    - https://dns.alidns.com/dns-query
+    "*.911gt2r.com":
+    - https://dns.alidns.com/dns-query
     
   
   use-hosts: true
@@ -85,6 +85,7 @@ dns:
     - https://doh.apad.pro/dns-query
     - https://dns.alidns.com/dns-query
   fallback:
+    - tls://101.101.101.101:853
     - udp://8.8.8.8
     - udp://4.2.2.1
   fallback-filter:
