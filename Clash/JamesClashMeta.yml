@@ -63,7 +63,7 @@ dns:
       - udp://8.8.8.8
     "community.oneplus.com,new.c.mi.com":
       - udp://8.8.8.8
-      - udp://4.2.2.1
+      - udp://4.2.2.2
     geosite:cn,private,apple:
     - https://doh.apad.pro/dns-query#h3
     - udp://223.5.5.5
@@ -73,21 +73,21 @@ dns:
     - udp://8.8.8.8      
     "*.tag-global-ddns.top":
     - udp://8.8.8.8
-    - udp://4.2.2.1
+    - udp://4.2.2.2
     "*.911-gt3-rs.com":
-    - https://dns.alidns.com/dns-query
+    - https://dns.alidns.com/dns-query#h3
     "*.911gt2r.com":
-    - https://dns.alidns.com/dns-query
+    - https://dns.alidns.com/dns-query#h3
     
   
   use-hosts: true
   nameserver:
-    - https://doh.apad.pro/dns-query
-    - https://dns.alidns.com/dns-query
+    - https://doh.apad.pro/dns-query#h3
+    - https://dns.alidns.com/dns-query#h3
   fallback:
     - tls://101.101.101.101:853
     - udp://8.8.8.8
-    - udp://4.2.2.1
+    - udp://4.2.2.2
   fallback-filter:
     geoip: true
     geoip-code: CN
