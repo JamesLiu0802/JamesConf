@@ -61,7 +61,7 @@ dns:
   nameserver-policy:
     "doh.apad.pro":
       - udp://8.8.8.8
-    "community.oneplus.com, new.c.mi.com":
+    "community.oneplus.com,new.c.mi.com":
       - udp://8.8.8.8
       - udp://4.2.2.1
     geosite:cn,private,apple:
