@@ -64,20 +64,21 @@ dns:
     "community.oneplus.com,new.c.mi.com":
       - udp://8.8.8.8
       - udp://4.2.2.2
+    "*.tag-global-ddns.top":
+      - udp://1.1.1.1
+      - udp://4.2.2.2
+    "*.911-gt3-rs.com":
+      - https://dns.alidns.com/dns-query#h3
+    "*.911gt2r.com":
+      - https://dns.alidns.com/dns-query#h3
     geosite:cn,private,apple:
-    - https://doh.apad.pro/dns-query#h3
-    - udp://223.5.5.5
+      - https://doh.apad.pro/dns-query#h3
+      - udp://223.5.5.5
     geosite:category-ads-all: rcode://success
     "geosite:gfw":
-    - tls://101.101.101.101:853
-    - udp://8.8.8.8      
-    "*.tag-global-ddns.top":
-    - udp://8.8.8.8
-    - udp://4.2.2.2
-    "*.911-gt3-rs.com":
-    - https://dns.alidns.com/dns-query#h3
-    "*.911gt2r.com":
-    - https://dns.alidns.com/dns-query#h3
+      - tls://101.101.101.101:853
+      - udp://8.8.8.8
+
     
   
   use-hosts: true
