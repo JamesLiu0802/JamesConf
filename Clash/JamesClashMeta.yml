@@ -71,7 +71,7 @@ dns:
       - https://dns.alidns.com/dns-query#h3
     "*.911gt2r.com":
       - https://dns.alidns.com/dns-query#h3
-    geosite:cn,private,apple:
+    geosite:cn,private,apple,bilibili:
       - https://doh.apad.pro/dns-query#h3
       - udp://223.5.5.5
     geosite:category-ads-all: rcode://success
