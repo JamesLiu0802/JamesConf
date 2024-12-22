@@ -75,14 +75,14 @@ dns:
       - 224.0.0.0/4
       - 240.0.0.0/4
       - 255.255.255.255/32
-      domain:
-        - "+.google.com"
-        - "+.facebook.com"
-        - "+.youtube.com"
-        - "+.githubusercontent.com"
-        - "+.googlevideo.com"
-        - "+.msftconnecttest.com"
-        - "+.msftncsi.com"
+    domain:
+      - "+.google.com"
+      - "+.facebook.com"
+      - "+.youtube.com"
+      - "+.githubusercontent.com"
+      - "+.googlevideo.com"
+      - "+.msftconnecttest.com"
+      - "+.msftncsi.com"
   nameserver-policy:
     "*.tag-global-ddns.top": 1.1.1.1
     "*.911-gt3-rs.com": 223.5.5.5
