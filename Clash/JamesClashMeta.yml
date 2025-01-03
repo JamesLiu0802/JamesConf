@@ -113,10 +113,10 @@ dns:
     - https://dns.alidns.com/dns-query#h3
     - https://doh.pub/dns-query
   fallback:
-    - tls://101.101.101.101:853
     - udp://8.8.8.8
     - udp://4.2.2.2
     - https://dns.cloudflare.com/dns-query
+    - tls://101.101.101.101:853
   fallback-filter:
     geoip: true
     geoip-code: CN
