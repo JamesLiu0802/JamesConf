@@ -76,11 +76,10 @@ dns:
       - udp://223.5.5.5
     geosite:category-ads-all: rcode://success
     "geosite:gfw":
-      - tls://101.101.101.101:853
       - udp://8.8.8.8
+      - udp://1.1.1.1
+      - tls://101.101.101.101:853
 
-    
-  
   use-hosts: true
   nameserver:
     - https://doh.apad.pro/dns-query#h3
