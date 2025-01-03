@@ -110,12 +110,13 @@ dns:
 
   use-hosts: true
   nameserver:
-    - https://doh.apad.pro/dns-query#h3
     - https://dns.alidns.com/dns-query#h3
+    - https://doh.pub/dns-query
   fallback:
     - tls://101.101.101.101:853
     - udp://8.8.8.8
     - udp://4.2.2.2
+    - https://dns.cloudflare.com/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
