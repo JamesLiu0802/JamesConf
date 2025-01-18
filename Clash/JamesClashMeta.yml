@@ -53,7 +53,7 @@ hosts:
 dns:
   enable: true
   enhanced-mode: redir-host
-  prefer-h3: true # 开启 DoH 支持 HTTP/3，将并发尝试
+  prefer-h3: false # 开启 DoH 支持 HTTP/3，将并发尝试
   listen: 0.0.0.0:7874
   default-nameserver:
     - 223.5.5.5
@@ -64,7 +64,7 @@ dns:
     "doh.apad.pro":
       - udp://8.8.8.8
     "*.tag-global-ddns.top":
-      - udp://1.1.1.1
+      - 1.1.1.1
       - udp://4.2.2.2
     "*.911-gt3-rs.com":
       - 223.5.5.5
@@ -75,8 +75,8 @@ dns:
       - 114.114.114.114
     geosite:category-ads-all: rcode://success
     "geosite:gfw":
-      - udp://8.8.8.8
-      - udp://1.1.1.1
+      - tls://8.8.8.8:853
+      - tls://1.1.1.1:853
       - tls://101.101.101.101:853
   fake-ip-filter:
     - '*.lan'
@@ -120,8 +120,8 @@ dns:
     - https://dns.alidns.com/dns-query#h3
     - https://doh.pub/dns-query
   fallback:
-    - udp://8.8.8.8
-    - udp://4.2.2.2
+    - tls://8.8.8.8:853
+    - tls://4.2.2.2:853
     - https://dns.cloudflare.com/dns-query
     - tls://101.101.101.101:853
   fallback-filter:
