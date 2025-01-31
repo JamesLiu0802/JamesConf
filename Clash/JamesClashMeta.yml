@@ -62,10 +62,11 @@ dns:
   # fake-ip-range: 198.18.0.1/16
   nameserver-policy:
     "doh.apad.pro":
-      - udp://8.8.8.8
+      - 8.8.8.8
+      - https://dns.cloudflare.com/dns-query
     "*.tag-global-ddns.top":
       - 1.1.1.1
-      - udp://4.2.2.2
+      - https://dns.cloudflare.com/dns-query
     "*.911-gt3-rs.com":
       - 223.5.5.5
     "*.911gt2r.com":
@@ -76,6 +77,7 @@ dns:
     geosite:category-ads-all: rcode://success
     "geosite:gfw":
       - tls://8.8.8.8:853
+      - https://dns.cloudflare.com/dns-query
       - tls://1.1.1.1:853
       - tls://101.101.101.101:853
   fake-ip-filter:
@@ -108,16 +110,13 @@ dns:
     - '*.mcdn.bilivideo.cn'
     # Windows Default LAN WorkGroup
     - 'WORKGROUP'
-    - rule-set:fakeip-filter
-    # fakeip-filter 为 geosite 中名为 fakeip-filter 的分类（需要自行保证该分类存在）
-    - geosite:fakeip-filter
   # 配置fake-ip-filter的匹配模式，默认为blacklist，即如果匹配成功不返回fake-ip
   # 可设置为whitelist，即只有匹配成功才返回fake-ip
   fake-ip-filter-mode: blacklist
   
   use-hosts: true
   nameserver:
-    - https://dns.alidns.com/dns-query#h3
+    - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
   fallback:
     - tls://8.8.8.8:853
