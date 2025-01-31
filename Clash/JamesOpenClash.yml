@@ -54,7 +54,8 @@ dns:
     - 114.114.114.114
     - https://doh.pub/dns-query
   fallback:
-    - udp://8.8.8.8
+    - 8.8.8.8
+    - https://dns.cloudflare.com/dns-query
     - udp://4.2.2.1
     - https://jp.tiar.app/dns-query
     - https://jp.tiarap.org/dns-query
