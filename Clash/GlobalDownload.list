@@ -52,8 +52,3 @@ IP-CIDR6,2a0b:e44:1::/48,no-resolve
 IP-CIDR6,2a0b:e45:1::/48,no-resolve
 PROCESS-NAME,mega.privacy.android.app
 
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN,drive.usercontent.google.com
-
-DOMAIN-SUFFIX,jetbrains.com
-DOMAIN-SUFFIX,intellij.net
