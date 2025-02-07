@@ -50,16 +50,16 @@ dns:
   default-nameserver:
     - tls://223.5.5.5
   nameserver:
-    - https://dns.alidns.com/dns-query
-    - 114.114.114.114
-    - https://doh.pub/dns-query
+#    - https://dns.alidns.com/dns-query
+    - https://doh.apad.pro/dns-query
+#    - https://doh.pub/dns-query
   fallback:
-    - 8.8.8.8
-    - https://dns.cloudflare.com/dns-query
-    - udp://4.2.2.1
-    - https://jp.tiar.app/dns-query
-    - https://jp.tiarap.org/dns-query
-    - tls://dot.tiar.app
+    - 77.88.8.8
+    - https://doh.dns.sb/dns-query
+    - https://dns.adguard-dns.com/dns-query
+    - https://dns.quad9.net/dns-query
+    - tls://1.0.0.1:853
+    - tls://8.8.4.4:853
   fallback-filter:
     geoip: true
     geoip-code: CN
