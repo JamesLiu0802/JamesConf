@@ -4,6 +4,8 @@
 DOMAIN,dns.cloudflare.com
 DOMAIN,dns.quad9.net
 DOMAIN,dns.adguard-dns.com
+DOMAIN,unfiltered.adguard-dns.com
+DOMAIN,family.adguard-dns.com
 DOMAIN,dns.google
 DOMAIN,dns.twnic.tw
 DOMAIN,common.dot.dns.yandex.net
@@ -15,6 +17,10 @@ IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,9.9.9.9/32,no-resolve
 IP-CIDR,94.140.14.14/32,no-resolve
 IP-CIDR,94.140.15.15/32,no-resolve
+IP-CIDR,94.140.14.141/32,no-resolve
+IP-CIDR,94.140.14.140/32,no-resolve
+IP-CIDR,94.140.14.15/32,no-resolve
+IP-CIDR,94.140.15.16/32,no-resolve
 IP-CIDR,101.101.101.101/32,no-resolve
 IP-CIDR,149.112.112.11/32,no-resolve
 IP-CIDR,208.67.222.222/32,no-resolve
