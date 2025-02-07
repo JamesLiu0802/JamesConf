@@ -3,7 +3,7 @@
 
 DOMAIN,dns.cloudflare.com
 DOMAIN,dns.quad9.net
-DOMAIN,dns.adguard.com
+DOMAIN,dns.adguard-dns.com
 DOMAIN,dns.google
 DOMAIN,dns.twnic.tw
 DOMAIN,common.dot.dns.yandex.net
