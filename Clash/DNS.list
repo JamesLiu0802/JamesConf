@@ -40,3 +40,4 @@ IP-CIDR,77.88.8.7/32,no-resolve
 IP-CIDR,103.121.210.210/32,no-resolve
 IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,185.184.222.222/32,no-resolve
+IP-CIDR,45.11.45.11/32,no-resolve
