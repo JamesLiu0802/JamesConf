@@ -1,11 +1,11 @@
-DST-PORT,853,DIRECT,udp
+# DST-PORT,853,DIRECT,udp
 
 
 DOMAIN,dns.cloudflare.com
 DOMAIN,dns.quad9.net
 DOMAIN,dns.adguard.com
-# DOMAIN,dns.google
-# DOMAIN,dns.twnic.tw
+DOMAIN,dns.google
+DOMAIN,dns.twnic.tw
 DOMAIN,common.dot.dns.yandex.net
 DOMAIN,safe.dot.dns.yandex.net
 DOMAIN,family.dot.dns.yandex.net
