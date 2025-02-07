@@ -11,6 +11,10 @@ DOMAIN,dns.twnic.tw
 DOMAIN,common.dot.dns.yandex.net
 DOMAIN,safe.dot.dns.yandex.net
 DOMAIN,family.dot.dns.yandex.net
+DOMAIN,doh.sb
+DOMAIN,dns.sb
+DOMAIN,dns.doh.sb
+DOMAIN,dot.sb
 
 IP-CIDR,1.1.1.1/32,no-resolve
 IP-CIDR,1.0.0.1/32,no-resolve
@@ -33,3 +37,5 @@ IP-CIDR,77.88.8.88/32,no-resolve
 IP-CIDR,77.88.8.2/32,no-resolve
 IP-CIDR,77.88.8.3/32,no-resolve
 IP-CIDR,77.88.8.7/32,no-resolve
+IP-CIDR,103.121.210.210/32,no-resolve
+IP-CIDR,185.222.222.222/32,no-resolve
