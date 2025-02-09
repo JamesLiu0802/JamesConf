@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,sourceforge.com
 DOMAIN-SUFFIX,sourceforge.net
 
 DOMAIN-SUFFIX,androidfilehost.com
+DOMAIN-SUFFIX,githubusercontent.com
 
 PROCESS-NAME,wget-ssl
 
