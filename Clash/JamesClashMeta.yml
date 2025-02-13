@@ -108,8 +108,8 @@ dns:
   
   use-hosts: true
   nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
+#    - https://dns.alidns.com/dns-query
+    - https://doh.apad.pro/dns-query
   fallback:
     - 77.88.8.8
     - https://doh.dns.sb/dns-query
