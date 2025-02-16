@@ -112,10 +112,9 @@ dns:
     - https://doh.apad.pro/dns-query
   fallback:
   - udp://77.88.8.8
-  - https://doh.dns.sb/dns-query
+  - udp://8.8.4.4
   - udp://94.140.14.14
   - udp://1.0.0.1
-  - udp://8.8.4.4
   fallback-filter:
     geoip: true
     geoip-code: CN
