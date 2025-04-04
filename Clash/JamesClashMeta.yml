@@ -113,7 +113,7 @@ dns:
   fallback:
   - udp://77.88.8.8
   - udp://8.8.4.4
-  - udp://94.140.14.14
+  - udp://168.95.192.1
   - udp://1.0.0.1
   fallback-filter:
     geoip: true
