@@ -50,7 +50,7 @@ dns:
   default-nameserver:
     - tls://223.5.5.5
   nameserver:
-#    - https://dns.alidns.com/dns-query
+    - https://dns.alidns.com/dns-query
     - https://doh.apad.pro/dns-query
 #    - https://doh.pub/dns-query
   fallback:
