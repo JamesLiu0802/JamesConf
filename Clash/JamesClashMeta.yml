@@ -109,7 +109,7 @@ dns:
   use-hosts: true
   nameserver:
     - https://dns.alidns.com/dns-query
-    - https://doh.apad.pro/dns-query
+    - https://doh.pub/dns-query
   fallback:
   - udp://77.88.8.8
   - udp://8.8.4.4
