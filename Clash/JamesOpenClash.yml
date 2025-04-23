@@ -48,9 +48,9 @@ dns:
   enable: true # 是否启用dns false
   listen: 0.0.0.0:7874 #
   default-nameserver:
-    - tls://223.5.5.5
+    - 114.114.115.115
   nameserver:
-    - https://dns.alidns.com/dns-query
+    - 114.114.115.115
     - https://doh.pub/dns-query
   fallback:
     - 77.88.8.8
