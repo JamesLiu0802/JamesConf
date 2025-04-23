@@ -51,8 +51,7 @@ dns:
     - tls://223.5.5.5
   nameserver:
     - https://dns.alidns.com/dns-query
-    - https://doh.apad.pro/dns-query
-#    - https://doh.pub/dns-query
+    - https://doh.pub/dns-query
   fallback:
     - 77.88.8.8
     - https://doh.dns.sb/dns-query
