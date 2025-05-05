@@ -1,6 +1,6 @@
 # DST-PORT,853,DIRECT,udp
 
-
+PROCESS-NAME,com.bilibili.app.in
 DOMAIN,dns.cloudflare.com
 DOMAIN,dns.quad9.net
 DOMAIN,dns.adguard-dns.com
