@@ -1,20 +1,11 @@
 
 
-DOMAIN-SUFFIX,t66y.com
+# DOMAIN-SUFFIX,t66y.com
 
 
 
 DOMAIN,fi.google.com
-DOMAIN-SUFFIX,ebay-us.com
-DOMAIN-SUFFIX,ebaycdn.net
-DOMAIN-SUFFIX,ebay.com
-DOMAIN-SUFFIX,ebayimg.com
-DOMAIN-SUFFIX,ebayinc.com
-DOMAIN-SUFFIX,ebaymainstreet.com
-DOMAIN-SUFFIX,ebayprivacycenter.com
-DOMAIN-SUFFIX,ebayrtm.com
-DOMAIN-SUFFIX,ebaystatic.com
-DOMAIN-SUFFIX,esmplus.com
+
 
 # NAME: Instagram
 DOMAIN-SUFFIX,cdninstagram.com
