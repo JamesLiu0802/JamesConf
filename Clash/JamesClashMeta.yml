@@ -68,7 +68,7 @@ dns:
     "*.911gt2r.com":
       - 114.114.115.115
     geosite:cn,private,apple,bilibili:
-      - 211.138.200.69
+      - 218.4.4.4
       - 114.114.115.115
       - 119.29.29.29
     geosite:category-ads-all: rcode://success
@@ -108,7 +108,7 @@ dns:
   
   use-hosts: true
   nameserver:
-    - 211.138.200.69
+    - 218.2.2.2
     - 218.4.4.4
     - https://doh.pub/dns-query
   fallback:
