@@ -48,13 +48,14 @@ dns:
   enable: true # 是否启用dns false
   listen: 0.0.0.0:7874 #
   default-nameserver:
-    - 114.114.115.115
+    - 180.184.2.2
   nameserver:
-    - 114.114.115.115
+    - 180.184.2.2
     - 218.4.4.4
   fallback:
-    - 77.88.8.8
+    - 202.175.3.8
     - 8.8.8.8
+    - 168.95.192.1
     - 1.1.1.1
   fallback-filter:
     geoip: true
@@ -102,25 +103,25 @@ dns:
     "*.tag-global-ddns.top": 1.0.0.1
     "*.911-gt3-rs.com": 223.5.5.5
     "*.911gt2r.com": 223.5.5.5
-    "geoip:cn,private": 114.114.115.115
-    '*.alibaba.cn': '114.114.115.115'
-    '*.alibaba.com.cn': '114.114.115.115'
-    '*.china.alibaba.com': '114.114.115.115'
-    '*.1688.com': '114.114.115.115'
-    '*.taobao.com': '114.114.115.115'
-    '*.tbcache.com': '114.114.115.115'
-    '*.tmall.com': '114.114.115.115'
-    '*.alicdn.com': '114.114.115.115'
-    '*.aliyundrive.com': '114.114.115.115'
-    '*.aliyun.*': '114.114.115.115'
-    '*.aliyuncdn.*': '114.114.115.115'
-    '*.aliyuncs.com': '114.114.115.115'
-    '*.aliyundunwaf.com': '114.114.115.115'
-    '*.aliapp.com': '114.114.115.115'
-    '*.aliapp.org': '114.114.115.115'
-    '*.alibabausercontent.com': '114.114.115.115'
-    '*.mmstat.com': '114.114.115.115'
-    'tb.cn': '114.114.115.115'
+    "geoip:cn,private": 180.184.2.2
+    '*.alibaba.cn': '180.184.2.2'
+    '*.alibaba.com.cn': '180.184.2.2'
+    '*.china.alibaba.com': '180.184.2.2'
+    '*.1688.com': '180.184.2.2'
+    '*.taobao.com': '180.184.2.2'
+    '*.tbcache.com': '180.184.2.2'
+    '*.tmall.com': '180.184.2.2'
+    '*.alicdn.com': '180.184.2.2'
+    '*.aliyundrive.com': '180.184.2.2'
+    '*.aliyun.*': '180.184.2.2'
+    '*.aliyuncdn.*': '180.184.2.2'
+    '*.aliyuncs.com': '180.184.2.2'
+    '*.aliyundunwaf.com': '180.184.2.2'
+    '*.aliapp.com': '180.184.2.2'
+    '*.aliapp.org': '180.184.2.2'
+    '*.alibabausercontent.com': '180.184.2.2'
+    '*.mmstat.com': '180.184.2.2'
+    'tb.cn': '180.184.2.2'
     
   
 
