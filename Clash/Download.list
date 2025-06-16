@@ -25,5 +25,6 @@ URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
 # Tencent Weiyun
 PROCESS-NAME,Weiyun.exe
 #Baidu disk
+PROCESS-NAME,BaiduNetdisk.exe
 PROCESS-NAME,BaiduNetdiskUnite.exe
 PROCESS-NAME,baidunetdiskhost.exe
