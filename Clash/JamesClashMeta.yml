@@ -56,8 +56,8 @@ dns:
   prefer-h3: false # 开启 DoH 支持 HTTP/3，将并发尝试
   listen: 0.0.0.0:7874
   default-nameserver:
-    - 114.114.115.115
     - 180.184.2.2
+    - 180.76.76.76
   ipv6: false
   # fake-ip-range: 198.18.0.1/16
   nameserver-policy:
@@ -65,13 +65,12 @@ dns:
       - udp://1.0.0.1
       - https://doh.dns.sb/dns-query
     "*.911-gt3-rs.com":
-      - 114.114.115.115
-    "*.911gt2r.com":
-      - 114.114.115.115
-    geosite:cn,private,apple,bilibili:
-      - 114.114.115.119
       - 180.184.2.2
-      - 119.29.29.29
+    "*.911gt2r.com":
+      - 180.184.2.2
+    geosite:cn,private,apple,bilibili:
+      - 180.184.2.2
+      - 180.76.76.76
     geosite:category-ads-all: rcode://success
   fake-ip-filter:
     - '*.lan'
@@ -109,14 +108,13 @@ dns:
   
   use-hosts: true
   nameserver:
-    - 114.114.115.119
-    - 218.2.2.2
     - 180.184.2.2
+    - 180.76.76.76
+    - 218.2.2.2
   fallback:
     - 202.175.3.8
     - 8.8.8.8
     - 168.95.192.1
-    - 1.1.1.1
   fallback-filter:
     geoip: true
     geoip-code: CN
