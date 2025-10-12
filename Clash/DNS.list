@@ -17,6 +17,14 @@ DOMAIN,dns.sb
 DOMAIN,dns.doh.sb
 DOMAIN,dot.sb
 
+
+DOMAIN,dns.hinet.net
+DOMAIN,dns.adguard.com
+DOMAIN,anycast.dns.nextdns.io
+DOMAIN,dns.nextdns.io
+DOMAIN,dns11.quad9.net
+DOMAIN,cloudflare-dns.com
+
 IP-CIDR,168.95.1.1/32,no-resolve
 IP-CIDR,168.95.192.1/32,no-resolve
 IP-CIDR,202.175.3.8/32,no-resolve
