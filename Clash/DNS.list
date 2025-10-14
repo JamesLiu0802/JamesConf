@@ -2,6 +2,8 @@
 #PROCESS-NAME,AdGuardHome
 #PROCESS-NAME,mosdns
 PROCESS-NAME,com.bilibili.app.in
+DOMAIN,james82.ddns.net
+
 DOMAIN,dns.cloudflare.com
 DOMAIN,dns.quad9.net
 DOMAIN,dns.adguard-dns.com
