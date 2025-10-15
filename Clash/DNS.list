@@ -19,6 +19,15 @@ DOMAIN,dns.sb
 DOMAIN,dns.doh.sb
 DOMAIN,dot.sb
 
+DOMAIN,adg.geili.me
+DOMAIN,sunnygyl.com
+DOMAIN,adguard.meddy94.de
+DOMAIN,ag.apollohct.com
+DOMAIN,dart.kpsn.org
+IP-CIDR,216.146.35.35/32,no-resolve
+IP-CIDR,1.1.1.2/32,no-resolve
+IP-CIDR,1.1.1.3/32,no-resolve
+
 
 DOMAIN,dns.hinet.net
 DOMAIN,dns.adguard.com
