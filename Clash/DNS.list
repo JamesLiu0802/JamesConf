@@ -4,6 +4,8 @@
 PROCESS-NAME,com.bilibili.app.in
 DOMAIN,james82.ddns.net
 
+DOMAIN-SUFFIX,xns.one
+
 DOMAIN,dns.cloudflare.com
 DOMAIN,dns.quad9.net
 DOMAIN,dns.adguard-dns.com
