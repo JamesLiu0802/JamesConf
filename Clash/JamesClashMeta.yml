@@ -48,29 +48,29 @@ hosts:
   mtalk.google.com: 108.177.125.188
   dl.google.com: 180.163.151.161
   dl.l.google.com: 180.163.151.161
-  doh.apad.pro: 220.185.184.17
+#  doh.apad.pro: 220.185.184.17
 
 dns:
   enable: true
   enhanced-mode: redir-host
-  prefer-h3: false # 开启 DoH 支持 HTTP/3，将并发尝试
+  prefer-h3: false  # 开启 DoH 支持 HTTP/3，将并发尝试
   listen: 0.0.0.0:7874
   default-nameserver:
-    - 180.184.2.2
-    - 180.76.76.76
+    - https://172.93.220.162/cdzHdtoJlkc/dns-query
+    - https://46.3.26.20/cdzHdtoJlkc/dns-query
+    - https://148.178.21.17/cdzHdtoJlkc/dns-query
+    - 1.1.1.2
   ipv6: false
   # fake-ip-range: 198.18.0.1/16
   nameserver-policy:
-    "*.tag-global-ddns.top":
-      - udp://1.0.0.1
-      - https://doh.dns.sb/dns-query
     "*.911-gt3-rs.com":
-      - 180.184.2.2
+      - https://46.3.26.20/cdzHdtoJlkc/dns-query
     "*.911gt2r.com":
-      - 180.184.2.2
+      - https://46.3.26.20/cdzHdtoJlkc/dns-query
     geosite:cn,private,apple,bilibili:
-      - 180.184.2.2
-      - 180.76.76.76
+      - https://46.3.26.20/cdzHdtoJlkc/dns-query
+#      - 180.184.2.2
+#      - 180.76.76.76
     geosite:category-ads-all: rcode://success
   fake-ip-filter:
     - '*.lan'
@@ -108,13 +108,19 @@ dns:
   
   use-hosts: true
   nameserver:
-    - 180.184.2.2
-    - 180.76.76.76
-    - 218.2.2.2
-  fallback:
-    - 202.175.3.8
-    - 8.8.8.8
-    - 168.95.192.1
+    - https://kr.pro.xns.one/cdzHdtoJlkc/dns-query
+    - https://kr.pro.xns.one/@hook6205/dns-query
+    - https://hk1.pro.xns.one/cdzHdtoJlkc/dns-query#h3=true
+    - https://hk1.pro.xns.one/@hook6205/dns-query#h3=true
+    - https://hk.pro.xns.one/cdzHdtoJlkc/dns-query
+    - https://hk.pro.xns.one/@hook6205/dns-query
+#  fallback:
+#    - https://kr.pro.xns.one/cdzHdtoJlkc/dns-query
+#    - https://kr.pro.xns.one/@hook6205/dns-query
+#    - https://hk1.pro.xns.one/cdzHdtoJlkc/dns-query#h3=true
+#    - https://hk1.pro.xns.one/@hook6205/dns-query#h3=true
+#    - https://hk.pro.xns.one/cdzHdtoJlkc/dns-query
+#    - https://hk.pro.xns.one/@hook6205/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
