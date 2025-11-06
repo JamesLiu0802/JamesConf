@@ -56,11 +56,11 @@ dns:
   prefer-h3: false  # 开启 DoH 支持 HTTP/3，将并发尝试
   listen: 0.0.0.0:7874
   default-nameserver:
-    - 180.184.2.2
-    - 180.76.76.76
-#    - https://172.93.220.162/cdzHdtoJlkc/dns-query
-#    - https://46.3.26.20/cdzHdtoJlkc/dns-query
-#    - https://148.178.21.17/cdzHdtoJlkc/dns-query
+#    - 180.184.2.2
+#    - 180.76.76.76
+    - https://172.93.220.162/cdzHdtoJlkc/dns-query
+    - https://46.3.26.20/cdzHdtoJlkc/dns-query
+    - https://148.178.21.17/cdzHdtoJlkc/dns-query
 #    - 1.1.1.2
   ipv6: false
   # fake-ip-range: 198.18.0.1/16
@@ -114,8 +114,10 @@ dns:
   
   use-hosts: true
   nameserver:
-    - 180.184.2.2
-    - 180.76.76.76
+    - https://hk1.pro.xns.one/cdzHdtoJlkc/dns-query#h3=true
+    - https://hk1.pro.xns.one/@hook6205/dns-query#h3=true
+#    - 180.184.2.2
+#    - 180.76.76.76
   fallback:
     - https://kr.pro.xns.one/cdzHdtoJlkc/dns-query
     - https://kr.pro.xns.one/@hook6205/dns-query
