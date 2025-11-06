@@ -64,13 +64,17 @@ dns:
   # fake-ip-range: 198.18.0.1/16
   nameserver-policy:
     "*.911-gt3-rs.com":
-      - https://46.3.26.20/cdzHdtoJlkc/dns-query
+#      - https://46.3.26.20/cdzHdtoJlkc/dns-query
+      - 180.184.2.2
+      - 180.76.76.76
     "*.911gt2r.com":
-      - https://46.3.26.20/cdzHdtoJlkc/dns-query
+#      - https://46.3.26.20/cdzHdtoJlkc/dns-query
+      - 180.184.2.2
+      - 180.76.76.76
     geosite:cn,private,apple,bilibili:
-      - https://46.3.26.20/cdzHdtoJlkc/dns-query
-#      - 180.184.2.2
-#      - 180.76.76.76
+#      - https://46.3.26.20/cdzHdtoJlkc/dns-query
+      - 180.184.2.2
+      - 180.76.76.76
     geosite:category-ads-all: rcode://success
   fake-ip-filter:
     - '*.lan'
