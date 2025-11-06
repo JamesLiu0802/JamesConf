@@ -112,19 +112,15 @@ dns:
   
   use-hosts: true
   nameserver:
+    - 180.184.2.2
+    - 180.76.76.76
+  fallback:
     - https://kr.pro.xns.one/cdzHdtoJlkc/dns-query
     - https://kr.pro.xns.one/@hook6205/dns-query
     - https://hk1.pro.xns.one/cdzHdtoJlkc/dns-query#h3=true
     - https://hk1.pro.xns.one/@hook6205/dns-query#h3=true
     - https://hk.pro.xns.one/cdzHdtoJlkc/dns-query
     - https://hk.pro.xns.one/@hook6205/dns-query
-#  fallback:
-#    - https://kr.pro.xns.one/cdzHdtoJlkc/dns-query
-#    - https://kr.pro.xns.one/@hook6205/dns-query
-#    - https://hk1.pro.xns.one/cdzHdtoJlkc/dns-query#h3=true
-#    - https://hk1.pro.xns.one/@hook6205/dns-query#h3=true
-#    - https://hk.pro.xns.one/cdzHdtoJlkc/dns-query
-#    - https://hk.pro.xns.one/@hook6205/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
