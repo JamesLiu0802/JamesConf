@@ -48,16 +48,18 @@ dns:
   enable: true # 是否启用dns false
   listen: 0.0.0.0:7874 #
   default-nameserver:
-    - 180.184.2.2
+    - 1.1.1.2
+    - 8.8.4.4
   nameserver:
-    - 180.184.2.2
-    - 180.76.76.76
-    - 218.4.4.4
+    - https://hk1.pro.xns.one/cdzHdtoJlkc/dns-query
+    - https://hk1.pro.xns.one/@hook6205/dns-query
   fallback:
-    - 202.175.3.8
-    - 8.8.8.8
-    - 168.95.192.1
-    - 1.1.1.1
+    - https://kr.pro.xns.one/cdzHdtoJlkc/dns-query
+    - https://kr.pro.xns.one/@hook6205/dns-query
+    - https://hk1.pro.xns.one/cdzHdtoJlkc/dns-query
+    - https://hk1.pro.xns.one/@hook6205/dns-query
+    - https://hk.pro.xns.one/cdzHdtoJlkc/dns-query
+    - https://hk.pro.xns.one/@hook6205/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
