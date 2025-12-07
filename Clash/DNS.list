@@ -8,6 +8,9 @@ DOMAIN-SUFFIX,xns.one
 DOMAIN-SUFFIX,xns.rodeo
 DOMAIN-SUFFIX,nxns.link
 DOMAIN-SUFFIX,novaxns.one
+IP-CIDR,46.3.43.21/32,no-resolve
+IP-CIDR,45.249.245.247/32,no-resolve
+IP-CIDR,46.3.26.20/32,no-resolve
 
 DOMAIN,dns.cloudflare.com
 DOMAIN,dns.quad9.net
