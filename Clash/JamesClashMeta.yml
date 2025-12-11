@@ -76,6 +76,14 @@ dns:
 #      - https://46.3.26.20/cdzHdtoJlkc/dns-query
       - 180.184.2.2
       - 180.76.76.76
+    "*.mmy2025.top":
+      - 180.184.2.2
+      - 180.76.76.76
+    "*.xns.one":
+      - https://46.3.43.21/cdzHdtoJlkc/dns-query
+      - https://45.249.245.247:5443/cdzHdtoJlkc/dns-query
+      - https://46.3.26.20/cdzHdtoJlkc/dns-query
+      
 #    geosite:cn,private,apple,bilibili:
 #      - https://46.3.26.20/cdzHdtoJlkc/dns-query
 #      - 180.184.2.2
