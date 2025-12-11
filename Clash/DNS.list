@@ -11,6 +11,9 @@ DOMAIN-SUFFIX,novaxns.one
 IP-CIDR,46.3.43.21/32,no-resolve
 IP-CIDR,45.249.245.247/32,no-resolve
 IP-CIDR,46.3.26.20/32,no-resolve
+IP-CIDR,172.93.220.162/32,no-resolve
+IP-CIDR,46.3.26.20/32,no-resolve
+IP-CIDR,148.178.21.17/32,no-resolve
 
 DOMAIN,dns.cloudflare.com
 DOMAIN,dns.quad9.net
