@@ -76,10 +76,10 @@ dns:
 #      - https://46.3.26.20/cdzHdtoJlkc/dns-query
       - 180.184.2.2
       - 180.76.76.76
-    geosite:cn,private,apple,bilibili:
+#    geosite:cn,private,apple,bilibili:
 #      - https://46.3.26.20/cdzHdtoJlkc/dns-query
-      - 180.184.2.2
-      - 180.76.76.76
+#      - 180.184.2.2
+#      - 180.76.76.76
     geosite:category-ads-all: rcode://success
   fake-ip-filter:
     - '*.lan'
