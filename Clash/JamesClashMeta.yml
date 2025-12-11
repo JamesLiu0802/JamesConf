@@ -58,9 +58,9 @@ dns:
   default-nameserver:
 #    - 180.184.2.2
 #    - 180.76.76.76
-    - https://46.3.43.21/cdzHdtoJlkc/dns-query
     - https://45.249.245.247:5443/cdzHdtoJlkc/dns-query
     - https://46.3.26.20/cdzHdtoJlkc/dns-query
+    - https://46.3.43.21/cdzHdtoJlkc/dns-query
 #    - https://172.93.220.162/cdzHdtoJlkc/dns-query
 #    - https://46.3.26.20/cdzHdtoJlkc/dns-query
 #    - https://148.178.21.17/cdzHdtoJlkc/dns-query
@@ -80,10 +80,9 @@ dns:
       - 180.184.2.2
       - 180.76.76.76
     "*.xns.one":
-      - https://46.3.43.21/cdzHdtoJlkc/dns-query
       - https://45.249.245.247:5443/cdzHdtoJlkc/dns-query
       - https://46.3.26.20/cdzHdtoJlkc/dns-query
-      
+      - https://46.3.43.21/cdzHdtoJlkc/dns-query
 #    geosite:cn,private,apple,bilibili:
 #      - https://46.3.26.20/cdzHdtoJlkc/dns-query
 #      - 180.184.2.2
@@ -127,6 +126,8 @@ dns:
   nameserver:
     - https://hk1.pro.xns.one/cdzHdtoJlkc/dns-query#h3=true
     - https://hk1.pro.xns.one/@hook6205/dns-query#h3=true
+    - https://hk.pro.xns.one/cdzHdtoJlkc/dns-query
+    - https://hk.pro.xns.one/@hook6205/dns-query
 #    - 180.184.2.2
 #    - 180.76.76.76
   fallback:
