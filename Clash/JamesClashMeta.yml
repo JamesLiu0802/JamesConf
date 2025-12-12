@@ -60,10 +60,9 @@ dns:
 #    - 180.76.76.76
     - https://45.249.245.247:5443/cdzHdtoJlkc/dns-query
     - https://46.3.26.20/cdzHdtoJlkc/dns-query
-    - https://46.3.43.21/cdzHdtoJlkc/dns-query
 #    - https://172.93.220.162/cdzHdtoJlkc/dns-query
 #    - https://46.3.26.20/cdzHdtoJlkc/dns-query
-#    - https://148.178.21.17/cdzHdtoJlkc/dns-query
+    - https://148.178.21.17/cdzHdtoJlkc/dns-query
 #    - 1.1.1.2
   ipv6: false
   # fake-ip-range: 198.18.0.1/16
@@ -128,15 +127,17 @@ dns:
     - https://hk1.pro.xns.one/@hook6205/dns-query#h3=true
     - https://hk.pro.xns.one/cdzHdtoJlkc/dns-query
     - https://hk.pro.xns.one/@hook6205/dns-query
+    - https://hk.raito.xns.one/cdzHdtoJlkc/dns-query#h3=true
+    - https://hk.raito.xns.one/@hook6205/dns-query#h3=true
 #    - 180.184.2.2
 #    - 180.76.76.76
   fallback:
-    - https://kr.pro.xns.one/cdzHdtoJlkc/dns-query
-    - https://kr.pro.xns.one/@hook6205/dns-query
     - https://hk1.pro.xns.one/cdzHdtoJlkc/dns-query#h3=true
     - https://hk1.pro.xns.one/@hook6205/dns-query#h3=true
     - https://hk.pro.xns.one/cdzHdtoJlkc/dns-query
     - https://hk.pro.xns.one/@hook6205/dns-query
+    - https://hk.raito.xns.one/cdzHdtoJlkc/dns-query#h3=true
+    - https://hk.raito.xns.one/@hook6205/dns-query#h3=true
   fallback-filter:
     geoip: true
     geoip-code: CN
