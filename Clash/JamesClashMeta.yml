@@ -75,6 +75,10 @@ dns:
 #      - https://46.3.26.20/cdzHdtoJlkc/dns-query
       - 180.184.2.2
       - 180.76.76.76
+    "*.911gt2r.com":
+      - https://45.249.245.247:5443/cdzHdtoJlkc/dns-query
+      - https://46.3.26.20/cdzHdtoJlkc/dns-query
+      - 1.1.1.1
     "*.mmy2025.top":
       - 180.184.2.2
       - 180.76.76.76
