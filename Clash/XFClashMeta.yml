@@ -1,0 +1,171 @@
+#---------------------------------------------------#
+# 配置文件需要放置在 $HOME/.config/clash/config.yml
+# 或者运行目录下的config.yml
+#---------------------------------------------------#
+# 混合端口 HTTP和SOCKS5用一个端口
+port: 7890
+mixed-port: 7893
+allow-lan: true
+bind-address: "*"
+ipv6: false
+mode: rule
+log-level: debug
+tcp-concurrent: true
+external-controller: 0.0.0.0:9090
+
+#自定义 geodata url
+geox-url:
+  geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
+
+#geo-auto-update: true # 是否自动更新 geodata
+#geo-update-interval: 24 # 更新间隔，单位：小时
+
+profile: # 存储 select 选择记录
+  store-selected: true
+
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  force-domain:
+  - +.v2ex.com
+  - +.netflix.com
+  - +.nflxvideo.net
+  - +.amazonaws.com
+  - +.media.dssott.com
+  sniff: # TLS 默认如果不配置 ports 默认嗅探 443
+    TLS:
+    #  ports: [443, 8443]
+    
+    # 默认嗅探 80
+    HTTP: # 需要嗅探的端口
+      ports: [80, 8080-8880]
+      # 可覆盖 sniffer.override-destination
+      override-destination: true
+
+hosts:
+  mtalk.google.com: 108.177.125.188
+  dl.google.com: 180.163.151.161
+  dl.l.google.com: 180.163.151.161
+#  doh.apad.pro: 220.185.184.17
+
+dns:
+  enable: true
+  enhanced-mode: redir-host
+  prefer-h3: false # 开启 DoH 支持 HTTP/3，将并发尝试
+  listen: 0.0.0.0:7874
+  default-nameserver:
+    - 180.184.2.2
+    - 223.5.5.5
+    - 114.114.114.114
+  ipv6: false
+  # fake-ip-range: 198.18.0.1/16
+  nameserver-policy:
+    "*.tag-global-ddns.top":
+      - udp://1.0.0.1
+      - https://doh.dns.sb/dns-query
+    "*.911-gt3-rs.com":
+      - 223.5.5.5
+    "*.911gt2r.com":
+      - 223.5.5.5
+    "*.mmy2025.top":
+      - 180.184.2.2
+      - 180.76.76.76
+    geosite:cn,private,apple,bilibili:
+      - 180.184.2.2
+      - 223.5.5.5
+      - 114.114.114.114
+    geosite:category-ads-all: rcode://success
+  fake-ip-filter:
+    - '*.lan'
+    - '*.localdomain'
+    - '*.example'
+    - '*.invalid'
+    - '*.localhost'
+    - '*.test'
+    - '*.local'
+    - '*.home.arpa'
+    # Stun Services
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
+    # Google Voices
+    - 'lens.l.google.com'
+    # Nintendo Switch STUN
+    - '*.n.n.srv.nintendo.net'
+    # PlayStation STUN
+    - '+.stun.playstation.net'
+    # XBox
+    - 'xbox.*.*.microsoft.com'
+    - '*.*.xboxlive.com'
+    # Microsoft Captive Portal
+    - '*.msftncsi.com'
+    - '*.msftconnecttest.com'
+    # Bilibili CDN
+    - '*.mcdn.bilivideo.cn'
+    # Windows Default LAN WorkGroup
+    - 'WORKGROUP'
+  # 配置fake-ip-filter的匹配模式，默认为blacklist，即如果匹配成功不返回fake-ip
+  # 可设置为whitelist，即只有匹配成功才返回fake-ip
+  fake-ip-filter-mode: blacklist
+  
+  use-hosts: true
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+  - udp://77.88.8.8
+  - udp://8.8.4.4
+  - udp://168.95.192.1
+  - udp://1.0.0.1
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.88.99.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
+      - 240.0.0.0/4
+      - 255.255.255.255/32
+    domain:
+      - '+.google.+'
+      - '+.googleapis.com'
+      - '+.googlevideo.com'
+      - '+.gstatic.cn'
+      - '+.gstatic.com'
+      - '+.gvt1.com'
+      - '+.gvt2.com'
+      - '+.recaptcha.net'
+      - '+.twimg.com'
+      - '+.twitter.com'
+      - '+.youtube.com'
+      - '+.ytimg.com'
+      - 'twitter.com'
+      - 't.co'
+      - 't.me'
+      - 'telegra.ph'
+      - 'youtu.be'
+      - "+.githubusercontent.com"
+      - "+.msftconnecttest.com"
+      - "+.msftncsi.com"
+
+cfw-latency-timeout: 3000
+cfw-latency-url: http://cp.cloudflare.com/generate_204
+cfw-conn-break-strategy:
+  proxy: all
+  profile: true
+  mode: true
+cfw-proxies-order: default
