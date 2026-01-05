@@ -56,40 +56,32 @@ dns:
   prefer-h3: false  # 开启 DoH 支持 HTTP/3，将并发尝试
   listen: 0.0.0.0:7874
   default-nameserver:
-#    - 180.184.2.2
-#    - 180.76.76.76
     - https://45.249.245.247:5443/cdzHdtoJlkc/dns-query
-    - https://46.3.26.20/cdzHdtoJlkc/dns-query
-#    - https://172.93.220.162/cdzHdtoJlkc/dns-query
-#    - https://46.3.26.20/cdzHdtoJlkc/dns-query
+    - https://142.248.150.166/cdzHdtoJlkc/dns-query
     - https://148.178.21.17/cdzHdtoJlkc/dns-query
-#    - 1.1.1.2
   ipv6: false
   # fake-ip-range: 198.18.0.1/16
   nameserver-policy:
     "*.911-gt3-rs.com":
-#      - https://46.3.26.20/cdzHdtoJlkc/dns-query
       - 180.184.2.2
       - 180.76.76.76
     "*.911gt2r.com":
-#      - https://46.3.26.20/cdzHdtoJlkc/dns-query
       - 180.184.2.2
       - 180.76.76.76
     "*.tag-global-ddns.top":
       - https://45.249.245.247:5443/cdzHdtoJlkc/dns-query
-      - https://46.3.26.20/cdzHdtoJlkc/dns-query
-      - 1.1.1.1
+      - https://142.248.150.166/cdzHdtoJlkc/dns-query
+      - 1.1.1.2
     "*.mmy2025.top":
       - 180.184.2.2
       - 180.76.76.76
     "*.xns.one":
       - https://45.249.245.247:5443/cdzHdtoJlkc/dns-query
-      - https://46.3.26.20/cdzHdtoJlkc/dns-query
-      - https://46.3.43.21/cdzHdtoJlkc/dns-query
-#    geosite:cn,private,apple,bilibili:
-#      - https://46.3.26.20/cdzHdtoJlkc/dns-query
-#      - 180.184.2.2
-#      - 180.76.76.76
+      - https://142.248.150.166/cdzHdtoJlkc/dns-query
+      - https://148.178.21.17/cdzHdtoJlkc/dns-query
+    geosite:cn,private,apple,bilibili:
+      - 180.184.2.2
+      - 180.76.76.76
     geosite:category-ads-all: rcode://success
   fake-ip-filter:
     - '*.lan'
@@ -127,21 +119,17 @@ dns:
   
   use-hosts: true
   nameserver:
-    - https://hk1.pro.xns.one/cdzHdtoJlkc/dns-query#h3=true
     - https://hk1.pro.xns.one/@hook6205/dns-query#h3=true
-    - https://hk.pro.xns.one/cdzHdtoJlkc/dns-query
-    - https://hk.pro.xns.one/@hook6205/dns-query
-    - https://hk.raito.xns.one/cdzHdtoJlkc/dns-query#h3=true
-    - https://hk.raito.xns.one/@hook6205/dns-query#h3=true
+    - https://jp.pro.xns.one/@hook6205/dns-query
+    - quic://at-hook6205.jp-pro.nxns.link:853
+    - tls://at-hook6205---b--mrswmylvnr2a.hk-pro.nxns.link
 #    - 180.184.2.2
 #    - 180.76.76.76
   fallback:
-    - https://hk1.pro.xns.one/cdzHdtoJlkc/dns-query#h3=true
     - https://hk1.pro.xns.one/@hook6205/dns-query#h3=true
-    - https://hk.pro.xns.one/cdzHdtoJlkc/dns-query
-    - https://hk.pro.xns.one/@hook6205/dns-query
-    - https://hk.raito.xns.one/cdzHdtoJlkc/dns-query#h3=true
-    - https://hk.raito.xns.one/@hook6205/dns-query#h3=true
+    - https://jp.pro.xns.one/@hook6205/dns-query
+    - quic://at-hook6205.jp-pro.nxns.link:853
+    - tls://at-hook6205---b--mrswmylvnr2a.hk-pro.nxns.link
   fallback-filter:
     geoip: true
     geoip-code: CN
