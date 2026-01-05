@@ -63,25 +63,33 @@ dns:
   # fake-ip-range: 198.18.0.1/16
   nameserver-policy:
     "*.911-gt3-rs.com":
-      - 180.184.2.2
-      - 180.76.76.76
+      - quic://dns.alidns.com:853
+      - https://doh.360.cn/dns-query
+      - https://dns.pub/dns-query
+      - https://dns.alidns.com/dns-query
     "*.911gt2r.com":
-      - 180.184.2.2
-      - 180.76.76.76
+      - quic://dns.alidns.com:853
+      - https://doh.360.cn/dns-query
+      - https://dns.pub/dns-query
+      - https://dns.alidns.com/dns-query
     "*.tag-global-ddns.top":
       - https://45.249.245.247:5443/cdzHdtoJlkc/dns-query
       - https://142.248.150.166/cdzHdtoJlkc/dns-query
       - 1.1.1.2
     "*.mmy2025.top":
-      - 180.184.2.2
-      - 180.76.76.76
+      - quic://dns.alidns.com:853
+      - https://doh.360.cn/dns-query
+      - https://dns.pub/dns-query
+      - https://dns.alidns.com/dns-query
     "*.xns.one":
       - https://45.249.245.247:5443/cdzHdtoJlkc/dns-query
       - https://142.248.150.166/cdzHdtoJlkc/dns-query
       - https://148.178.21.17/cdzHdtoJlkc/dns-query
     geosite:cn,private,apple,bilibili:
-      - 180.184.2.2
-      - 180.76.76.76
+      - quic://dns.alidns.com:853
+      - https://doh.360.cn/dns-query
+      - https://dns.pub/dns-query
+      - https://dns.alidns.com/dns-query
     geosite:category-ads-all: rcode://success
   fake-ip-filter:
     - '*.lan'
