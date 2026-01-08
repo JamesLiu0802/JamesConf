@@ -82,9 +82,9 @@ dns:
       - https://dns.pub/dns-query
       - https://dns.alidns.com/dns-query
     "*.xns.one":
-      - https://45.249.245.247:5443/cdzHdtoJlkc/dns-query
-      - https://142.248.150.166/cdzHdtoJlkc/dns-query
-      - https://148.178.21.17/cdzHdtoJlkc/dns-query
+      - udp://1.0.0.1
+      - udp://8.8.8.8
+      - 223.5.5.5
     geosite:private,apple,bilibili:
       - quic://dns.alidns.com:853
       - https://doh.360.cn/dns-query
