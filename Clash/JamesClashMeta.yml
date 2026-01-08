@@ -130,15 +130,11 @@ dns:
   nameserver:
     - https://hk1.pro.xns.one/@hook6205/dns-query#h3=true
     - https://jp.pro.xns.one/@hook6205/dns-query
-    - quic://at-hook6205.jp-pro.nxns.link:853
-    - tls://at-hook6205---b--mrswmylvnr2a.hk-pro.nxns.link
-#    - 180.184.2.2
-#    - 180.76.76.76
+    - https://family.cloudflare-dns.com/dns-query
   fallback:
     - https://hk1.pro.xns.one/@hook6205/dns-query#h3=true
     - https://jp.pro.xns.one/@hook6205/dns-query
-    - quic://at-hook6205.jp-pro.nxns.link:853
-    - tls://at-hook6205---b--mrswmylvnr2a.hk-pro.nxns.link
+    - https://family.cloudflare-dns.com/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
