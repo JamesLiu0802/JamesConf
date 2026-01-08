@@ -63,6 +63,10 @@ dns:
   ipv6: false
   # fake-ip-range: 198.18.0.1/16
   nameserver-policy:
+    "dns.alidns.com,doh.360.cn,dns.pub":
+      - 223.5.5.5
+      - 180.184.2.2
+      - 114.114.114.110
     "*.911-gt3-rs.com":
       - quic://dns.alidns.com:853
       - https://doh.360.cn/dns-query
@@ -73,6 +77,10 @@ dns:
       - https://doh.360.cn/dns-query
       - https://dns.pub/dns-query
       - https://dns.alidns.com/dns-query
+    "*.xns.one":
+      - udp://1.0.0.1
+      - udp://8.8.8.8
+      - 223.5.5.5
     "*.tag-global-ddns.top":
       - https://45.249.245.247:5443/cdzHdtoJlkc/dns-query
       - https://142.248.150.166/cdzHdtoJlkc/dns-query
@@ -82,10 +90,6 @@ dns:
       - https://doh.360.cn/dns-query
       - https://dns.pub/dns-query
       - https://dns.alidns.com/dns-query
-    "*.xns.one":
-      - udp://1.0.0.1
-      - udp://8.8.8.8
-      - 223.5.5.5
     geosite:private,apple,bilibili:
       - quic://dns.alidns.com:853
       - https://doh.360.cn/dns-query
