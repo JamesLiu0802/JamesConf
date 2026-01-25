@@ -77,7 +77,15 @@ dns:
       - https://doh.360.cn/dns-query
       - https://dns.pub/dns-query
       - https://dns.alidns.com/dns-query
-    "*.xns.one":
+    "*.pro.xns.one":
+      - udp://1.0.0.1
+      - udp://8.8.8.8
+      - 223.5.5.5
+    "*.beta.xns.one":
+      - udp://1.0.0.1
+      - udp://8.8.8.8
+      - 223.5.5.5
+    "*.kahkee.xns.one":
       - udp://1.0.0.1
       - udp://8.8.8.8
       - 223.5.5.5
