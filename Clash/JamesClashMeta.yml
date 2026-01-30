@@ -98,7 +98,7 @@ dns:
       - https://doh.360.cn/dns-query
       - https://dns.pub/dns-query
       - https://dns.alidns.com/dns-query
-    geosite:private,apple,bilibili:
+    geosite:cn,private,apple,bilibili:
       - quic://dns.alidns.com:853
       - https://doh.360.cn/dns-query
       - https://dns.pub/dns-query
