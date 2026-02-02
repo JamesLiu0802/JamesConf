@@ -1,0 +1,14 @@
+# NBA 分流
+payload:
+  - DOMAIN,lpnba.akamaized.net
+
+  - DOMAIN,pub1.emby.wtf
+  - DOMAIN,push-kr.misakaf.org
+  - DOMAIN,cf.jmsooo.com
+  - DOMAIN-SUFFIX,misakaf.org
+  - IP-CIDR,5.78.86.228/32 
+  - IP-CIDR,5.78.78.136/32
+  - IP-CIDR,5.78.103.111/32
+  - IP-CIDR,5.78.94.83/32
+  - IP-CIDR,5.78.113.91/32
+  - IP-CIDR,102.223.180.108/32
