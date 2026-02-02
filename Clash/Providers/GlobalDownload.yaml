@@ -3,10 +3,10 @@ payload:
   - DOMAIN-SUFFIX,sf.net
   - DOMAIN-SUFFIX,sourceforge.com
   - DOMAIN-SUFFIX,sourceforge.net
+  - DOMAIN-SUFFIX,dl.sourceforge.net
 
   - DOMAIN-SUFFIX,androidfilehost.com
-
-  - DOMAIN,dl.pixelexperience.org
+  - DOMAIN,githubusercontent.com
 
   - PROCESS-NAME,wget-ssl
 
