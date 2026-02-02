@@ -1,5 +1,5 @@
 payload:
-#  - DOMAIN-SUFFIX,dve-streams.akamaized.net
+#  -   - DOMAIN-SUFFIX,dve-streams.akamaized.net
   - DOMAIN,csl.prod.ondemandconnectivity.com
   - DOMAIN,hhk.prod.ondemandconnectivity.com
   - DOMAIN,epdg.epc.mnc000.mcc454.pub.3gppnetwork.org
@@ -13,3 +13,23 @@ payload:
   - PROCESS-NAME,com.pccw.clubsim
   - DOMAIN-SUFFIX,anyplex.com
   - DOMAIN,api.onesignal.com
+  - DOMAIN,xdaforums.com
+  - DOMAIN-SUFFIX,xda-developers.com
+  - IP-CIDR,52.5.96.96/32,no-resolve
+  - IP-CIDR,3.214.214.173/32,no-resolve
+
+  - DOMAIN,sub.xeton.dev
+
+  - DOMAIN-SUFFIX,dve-streams.akamaized.net
+  - DOMAIN-SUFFIX,dice-live-eu.akamaized.net
+
+
+#  - DOMAIN,dns.cloudflare.com
+#  - DOMAIN,jp.tiar.app
+  - DOMAIN-SUFFIX,global.xiaomi.net
+  - DOMAIN-SUFFIX,intl.miui.com
+  - DOMAIN,global.market.xiaomi.com
+  - DOMAIN-SUFFIX,global.xiaomi.com
+  - DOMAIN,connect.intl.rom.miui.com
+  - DOMAIN,jupiter.intl.sys.miui.com
+  - DOMAIN-SUFFIX,intl.inf.miui.com
