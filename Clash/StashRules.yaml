@@ -5,38 +5,9 @@ bind-address: '*'
 mode: rule
 ipv6: false
 
-log-level: info
-
-external-controller: 127.0.0.1:9090
+log-level: debug
 
 
-geox-url:
-  geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
-  geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
-  mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
-
-
-profile: # 存储 select 选择记录
-  store-selected: true
-
-sniffer:
-  enable: true
-  force-dns-mapping: true
-  force-domain:
-    - +.v2ex.com
-    - +.netflix.com
-    - +.nflxvideo.net
-    - +.amazonaws.com
-    - +.media.dssott.com
-  sniff: # TLS 默认如果不配置 ports 默认嗅探 443
-    TLS:
-      ports: [443, 8443]
-    
-    HTTP: # 需要嗅探的端口
-      ports: [80, 8080-8880]
-      override-destination: true
-    QUIC:
-      ports: [443, 8443]
 
 hosts:
   mtalk.google.com: 108.177.125.188
@@ -45,11 +16,6 @@ hosts:
 #  doh.apad.pro: 220.185.184.17
 
 dns:
-  enable: true
-  enhanced-mode: redir-host
-  prefer-h3: true
-  listen: 0.0.0.0:7874
-  ipv6: false
   default-nameserver:
     - https://45.249.245.247:5443/cdzHdtoJlkc/dns-query
     - https://142.248.150.166/cdzHdtoJlkc/dns-query
@@ -126,16 +92,9 @@ dns:
     - '*.mcdn.bilivideo.cn'
     # Windows Default LAN WorkGroup
     - 'WORKGROUP'
-  # 配置fake-ip-filter的匹配模式，默认为blacklist，即如果匹配成功不返回fake-ip
-  # 可设置为whitelist，即只有匹配成功才返回fake-ip
-  fake-ip-filter-mode: blacklist
   
   use-hosts: true
   nameserver:
-    - https://hk1.pro.xns.one/@hook6205/dns-query#h3=true
-    - https://jp.pro.xns.one/@hook6205/dns-query
-    - https://family.cloudflare-dns.com/dns-query
-  fallback:
     - https://hk1.pro.xns.one/@hook6205/dns-query#h3=true
     - https://jp.pro.xns.one/@hook6205/dns-query
     - https://family.cloudflare-dns.com/dns-query
@@ -181,13 +140,6 @@ dns:
       - "+.msftconnecttest.com"
       - "+.msftncsi.com"
 
-cfw-latency-timeout: 3000
-cfw-latency-url: http://cp.cloudflare.com/generate_204
-cfw-conn-break-strategy:
-  proxy: all
-  profile: true
-  mode: true
-cfw-proxies-order: default
 proxies:
 
 # 服务器节点订阅
