@@ -1,10 +1,4 @@
 payload:
-  # 广告列表 adblock rules
-  # 内容：EasyPrivacy 列表
-  # 来源：https://easylist-downloads.adblockplus.org/easyprivacy.txt
-  # 来源：https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/Providers/BanEasyPrivacy.yaml
-  # 更新：2025-04-13
-
   - DOMAIN-SUFFIX,0.myikas.com
   - DOMAIN-SUFFIX,0.net.easyjet.com
   - DOMAIN-SUFFIX,00px.net
