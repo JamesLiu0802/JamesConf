@@ -15,6 +15,7 @@ payload:
   - DOMAIN,adv.sec.miui.com
   - DOMAIN,api.sec.miui.com
   - DOMAIN,xlmc.sec.miui.com
+  - DOMAIN,tracking.miui.com
 
   - DOMAIN,stat.kugou.com
   - DOMAIN-KEYWORD,admarvel
