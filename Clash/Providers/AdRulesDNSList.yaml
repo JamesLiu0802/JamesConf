@@ -1,4 +1,13 @@
 payload:
+  - DOMAIN-SUFFIX,mcdn.bilivideo.cn
+  - DOMAIN-SUFFIX,edge.mountaintoys.cn
+  - DOMAIN,punch.p2p.qq.com
+  - DOMAIN,musicps.p2p.qq.com
+  - DOMAIN,musicstun.p2p.qq.com
+  - DOMAIN,musicpunch.p2p.qq.com
+  - DOMAIN,tp2p.kg.qq.com
+  - DOMAIN,twns.p2ptun.qq.com
+  
   - DOMAIN,test.ad.xiaomi.com
   - DOMAIN,api.ad.xiaomi.com
   - DOMAIN,sdkconfig.ad.xiaomi.com
