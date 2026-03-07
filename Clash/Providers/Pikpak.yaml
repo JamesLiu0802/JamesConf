@@ -25,6 +25,7 @@ payload:
   - DOMAIN,download.testip.xyz
   - DOMAIN-SUFFIX,shuocc.com
   - DOMAIN,api-drive.pickpackapp.com
+  - DOMAIN,user.pickpackapp.com
   - DOMAIN,sg-thumbnail-drive.pickpackapp.com
   - DOMAIN,static.pickpackapp.com
   - DOMAIN,dl.pikpak.io
