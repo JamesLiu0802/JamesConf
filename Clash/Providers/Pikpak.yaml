@@ -24,3 +24,5 @@ payload:
   - DOMAIN,o4504926511693824.ingest.sentry.io
   - DOMAIN,download.testip.xyz
   - DOMAIN-SUFFIX,shuocc.com
+  - DOMAIN,api-drive.pickpackapp.com
+  - DOMAIN,dl.pikpak.io
