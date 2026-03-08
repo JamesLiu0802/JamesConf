@@ -1,5 +1,3 @@
 payload:
-# 内容：Porn
-# 数量：23条
   - DOMAIN-KEYWORD,missav
   - IP-CIDR,168.138.176.146/32,no-resolve
