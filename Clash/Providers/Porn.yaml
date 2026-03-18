@@ -2,3 +2,4 @@ payload:
   - DOMAIN-KEYWORD,missav
   - IP-CIDR,168.138.176.146/32,no-resolve
   - DOMAIN-SUFFIX,prd.media.max.com
+  - DOMAIN-SUFFIX,h264.io
