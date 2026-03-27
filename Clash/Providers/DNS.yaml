@@ -1,6 +1,7 @@
 payload:
   - PROCESS-NAME,com.bilibili.app.in
   - DOMAIN,james82.ddns.net
+  - DOMAIN,ecs-api.xns.one
 
   - DOMAIN-SUFFIX,xns.one
   - DOMAIN-SUFFIX,xns.rodeo
