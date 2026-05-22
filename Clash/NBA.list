@@ -1,4 +1,3 @@
-# NAME: League Pass
 PROCESS-NAME,com.nbaimd.gametime.nba2011
 DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,neulion.com
@@ -22,3 +21,4 @@ DOMAIN,nbalpng.akamaized.net
 DOMAIN,nba-cdn.cloud.easelive.tv
 DOMAIN,rest-prod-nba.evergent.com
 DOMAIN,nba.ra3ncmyg1p.com
+DOMAIN,nba-api-cdn.opin.media
