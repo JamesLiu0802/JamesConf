@@ -3,6 +3,7 @@ payload:
   - DOMAIN,lpnba.akamaized.net
 
   - DOMAIN,pub1.emby.wtf
+  - DOMAIN,v1.zdz.plus
   - DOMAIN,push-kr.misakaf.org
   - DOMAIN,cf.jmsooo.com
   - DOMAIN-SUFFIX,misakaf.org
