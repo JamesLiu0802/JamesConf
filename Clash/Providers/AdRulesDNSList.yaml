@@ -1,13 +1,13 @@
 payload:
-  - pagead2.googlesyndication.com
-  - googleads.g.doubleclick.net
-  - ad.doubleclick.net
-  - stats.g.doubleclick.net
-  - static.doubleclick.net
-  - cm.g.doubleclick.net
-  - m.doubleclick.net
-  - mediavisor.doubleclick.net
-  - pubads.g.doubleclick.net
+  - DOMAIN,pagead2.googlesyndication.com
+  - DOMAIN,googleads.g.doubleclick.net
+  - DOMAIN,ad.doubleclick.net
+  - DOMAIN,stats.g.doubleclick.net
+  - DOMAIN,static.doubleclick.net
+  - DOMAIN,cm.g.doubleclick.net
+  - DOMAIN,m.doubleclick.net
+  - DOMAIN,mediavisor.doubleclick.net
+  - DOMAIN,pubads.g.doubleclick.net
 
   - DOMAIN,pi.yuedu.dns.iqiyi.com
   - DOMAIN,apidns.kwd.inkuai.com
