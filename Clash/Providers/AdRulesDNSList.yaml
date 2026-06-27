@@ -9,6 +9,7 @@ payload:
   - DOMAIN,mediavisor.doubleclick.net
   - DOMAIN,pubads.g.doubleclick.net
   - DOMAIN,securepubads.g.doubleclick.net
+  - DOMAIN,adservice.google.com
 
   - DOMAIN,pi.yuedu.dns.iqiyi.com
   - DOMAIN,apidns.kwd.inkuai.com
