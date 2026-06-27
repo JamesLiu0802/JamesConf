@@ -1,4 +1,11 @@
 payload:
+  - DOMAIN,2026234.xyz
+  - DOMAIN,2026345.xyz
+  - DOMAIN,2026456.xyz
+  - DOMAIN,2026567.xyz
+  - DOMAIN,2026678.xyz
+
+
   - PROCESS-NAME,BitComet.exe
   - PROCESS-NAME,uu.exe
 
