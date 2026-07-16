@@ -8,6 +8,8 @@ payload:
   - DOMAIN,gspe1-ssl.ls.apple.com
   - IP-CIDR,120.88.0.0/16
 
+  - www.hk.chinamobile.com
+
 # hmvod
   - PROCESS-NAME,com.anyplex.hls.wish
   - PROCESS-NAME,com.pccw.clubsim
