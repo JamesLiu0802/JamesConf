@@ -9,7 +9,7 @@ payload:
 #  - IP-CIDR,120.88.0.0/16
 
   - DOMAIN,www.hk.chinamobile.com
-
+  - DOMAIN,omniapi.hk.chinamobile.com
 # hmvod
   - PROCESS-NAME,com.anyplex.hls.wish
   - PROCESS-NAME,com.pccw.clubsim
