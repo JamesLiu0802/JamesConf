@@ -30,3 +30,5 @@ payload:
 #  - DOMAIN,sg-thumbnail-drive.pickpackapp.com
 #  - DOMAIN,static.pickpackapp.com
   - DOMAIN,dl.pikpak.io
+
+  - DOMAIN-KEYWORD,pikpak-app
