@@ -4,7 +4,7 @@ payload:
   - DOMAIN,2026456.xyz
   - DOMAIN,2026567.xyz
   - DOMAIN,2026678.xyz
-  - DOMAIN-SUFFIX,joanneheibergerdmf39.workers.dev
+  - DOMAIN,63988219.xyz
 
   - PROCESS-NAME,BitComet.exe
   - PROCESS-NAME,uu.exe
