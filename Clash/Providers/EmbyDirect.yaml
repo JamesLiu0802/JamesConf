@@ -4,7 +4,7 @@ payload:
   - DOMAIN,2026456.xyz
   - DOMAIN,2026567.xyz
   - DOMAIN,2026678.xyz
-  - DOMAIN,63988219.xyz
+  - DOMAIN-SUFFIX,63988219.xyz
 
   - PROCESS-NAME,BitComet.exe
   - PROCESS-NAME,uu.exe
