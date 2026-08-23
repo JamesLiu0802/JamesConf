@@ -5,6 +5,7 @@ payload:
   - DOMAIN,2026567.xyz
   - DOMAIN,2026678.xyz
   - DOMAIN-SUFFIX,63988219.xyz
+  - DOMAIN,emby.taotu.ink
 
   - PROCESS-NAME,BitComet.exe
   - PROCESS-NAME,uu.exe
