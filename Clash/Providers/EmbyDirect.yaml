@@ -7,8 +7,7 @@ payload:
   - DOMAIN-SUFFIX,63988219.xyz
   - DOMAIN,emby.taotu.ink
 
-  - PROCESS-NAME, WeChat
-  - 
+  - PROCESS-NAME,WeChat
   - PROCESS-NAME,BitComet.exe
   - PROCESS-NAME,uu.exe
 
