@@ -6,6 +6,7 @@ payload:
   - DOMAIN,2026678.xyz
   - DOMAIN-SUFFIX,63988219.xyz
   - DOMAIN,emby.taotu.ink
+  - DOMAIN,suiying.qutama.de
 
   - PROCESS-NAME,WeChat
   - PROCESS-NAME,BitComet.exe
