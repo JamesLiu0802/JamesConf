@@ -22,6 +22,15 @@ payload:
   - IP-CIDR,156.245.232.175/32,no-resolve
   - IP-CIDR,185.228.169.9/32,no-resolve
 
+
+
+  - DOMAIN,doh.dnslify.com
+  - DOMAIN,dns.oszx.co
+  - DOMAIN,doh.applied-privacy.net
+  - DOMAIN,dnsforge.de
+  - DOMAIN,doh.ffmuc.net
+  - DOMAIN,doh.mullvad.net
+
   - DOMAIN,dns.cloudflare.com
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN,dns.quad9.net
